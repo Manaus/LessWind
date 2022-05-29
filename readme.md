@@ -14,3 +14,7 @@ For example:
 }
 ```
 
+## Development process
+
+I'm using EasyLess for transpiling Less files to Css. 
+EasyLess is an extension you can find in the Extensions Catalogue within Microsoft VSCode.  

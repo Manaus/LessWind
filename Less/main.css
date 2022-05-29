@@ -1,35 +1,5 @@
-.m-0 {
-  margin: 0;
-}
-.p-1 {
-  padding: 1rem;
-}
-.bg-red {
-  background-color: red;
-}
-.bg-bisque {
-  background-color: bisque;
-}
-.bg-darkgray {
-  background-color: darkgray;
-}
-.h-full {
-  height: 100vh;
-}
-.h-half {
-  height: 50vh;
-}
-.section-m {
-  padding: 1rem;
-  background-color: darkgray;
-  height: 50vh;
-}
 body {
   margin: 0;
-  background-color: red;
-}
-.section-top {
-  padding: 1rem;
-  background-color: darkgray;
-  height: 50vh;
+  padding-left: 0px;
+  padding-right: 0px;
 }
