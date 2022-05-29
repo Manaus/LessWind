@@ -1,20 +1,68 @@
-.m-0 {
-    margin: 0;
+// usage: .m(4) 
+// returns margin: 1rem 
+// that is, 0.125 (@unit) * 4 (argument)
+
+@import "./variables.less";
+
+.m(@amount) {
+    @value: @amount * @unit;
+    margin:~"@{value}rem";
 }
 
-.m-1 {
-    margin: 1rem;
+.mt(@amount) {
+    @value: @amount * @unit;
+    margin-top:~"@{value}rem";
 }
 
-.m-2 {
-    margin: 2rem;
+.mr(@amount) {
+    @value: @amount * @unit;
+    margin-right:~"@{value}rem";
 }
 
-.m-3 {
-    margin: 3rem;
+.mb(@amount) {
+    @value: @amount * @unit;
+    margin-bottom:~"@{value}rem";
 }
 
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+.ml(@amount) {
+    @value: @amount * @unit;
+    margin-left:~"@{value}rem";
+}
+
+.mx(@amount) {
+    @value: @amount * @unit;
+    margin-left:~"@{value}rem";
+    margin-right:~"@{value}rem";
+}
+
+.my(@amount) {
+    @value: @amount * @unit;
+    margin-top:~"@{value}rem";
+    margin-bottom:~"@{value}rem";
+}
+
+.mx-px {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.my-px {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.mt-px {
+    padding-top: 1px;
+}
+
+.mr-px {
+    padding-right: 1px;
+}
+
+.mb-px {
+    padding-bottom: 1px;
+}
+
+.ml-px {
+    padding-left: 1px;
 }
