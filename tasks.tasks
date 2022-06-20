@@ -1,0 +1,46 @@
+
+Layout:
+    ☐ Aspect Ratio
+    ☐ Container
+    ☐ Columns
+    ☐ Break after
+    ☐ Break before
+    ☐ Break inside
+    ☐ Box decoration break
+    ☐ Box sizing
+    ☐ Display
+    ☐ Float
+    ☐ Clear
+    ☐ Isolation
+    ☐ Object Fit
+    ☐ Object Position
+    ☐ Overflow
+    ☐ Overscroll behaviour
+    ☐ Position
+    ☐ Top right bottom left
+    ☐ Visibility
+    ☐ z-index
+
+Flexbox & grid:
+    ✔ Flex basis @done(22-06-19 08:58)
+    ✔ Flex direction @done(22-06-19 09:13)
+    ✔ Flex wrap @done(22-06-19 09:15)
+    ☐ Flex
+    ☐ Flex grow
+    ☐ Flex shrink
+    ☐ Order
+    ☐ Grid template columns
+
+Sizing: 
+    ☐ Width
+    ☐ Min-width
+    ☐ Max-width
+    ☐ Height
+    ☐ Min-height
+    ☐ Max-height
+   
+
+    ☐ Margin
+    ☐ Padding
+    
+    
